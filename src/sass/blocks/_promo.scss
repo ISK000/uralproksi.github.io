@@ -1,0 +1,31 @@
+.promo {
+	min-width: 1440px;
+	min-height: 100vh;
+	background: url(../img/BG/home-page.jpg) center center/cover no-repeat fixed;
+	&__wrapper {
+		padding: 177px 0 135px 0;
+		width: 714px;
+		height: 240px;
+		
+	}
+	&__title, &__subtitle {
+		text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.30);
+		font-size: 33px;
+		font-weight: 400;
+		text-transform: uppercase;
+		background: linear-gradient(180deg, #CA8D08 0%, #FFF 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		&_mb {
+			margin-bottom: 30px;
+		}
+	}
+	&__subtitle {
+		width: 647px;
+		font-family: 'Roboto';
+		font-size: 24px;
+		font-weight: 400;
+		
+	}
+}

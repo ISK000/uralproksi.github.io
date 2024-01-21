@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,a{
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	width: 1260px;
+	margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons'
