@@ -2,8 +2,11 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
-h1,h2,h3,a{
+h1,h2,h3,h4,h5,a{
 	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background: var(--gradient, #0E202C);
 }
 .container {
 	width: 1260px;
@@ -12,4 +15,7 @@ h1,h2,h3,a{
 
 @import 'blocks/header';
 @import 'blocks/promo';
-@import 'blocks/buttons'
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/offer';
